@@ -10,5 +10,12 @@
     ./lsp-format.nix
     ./extraPlugins.nix
     ./telescope.nix
+    ./toggleterm.nix
+    ./emmet.nix
+    ./cmp.nix
+    ./diffview.nix
+    ./gitsigns.nix
+    ./airline.nix
+    ./noice.nix
   ];
 }

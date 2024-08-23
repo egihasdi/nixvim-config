@@ -16,6 +16,10 @@
           action = "definition";
           desc = "Go to definition";
         };
+        "<leader>la" = {
+          action = "code_action";
+          desc = "LSP code action";
+        };
       };
     };
   };

@@ -5,6 +5,18 @@ let
   };
 in [
   {
+    mode = "n";
+    key = "<leader>q";
+    action = "<cmd>confirm q<cr>";
+    options.desc = "Quit window";
+  }
+  {
+    mode = "n";
+    key = "<leader>Q";
+    action = "<cmd>confirm qall<cr>";
+    options.desc = "Exit neovim";
+  }
+  {
     inherit (forceWrite) action options;
     mode = "n";
     key = "<c-s>";

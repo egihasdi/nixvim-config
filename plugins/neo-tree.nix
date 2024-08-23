@@ -4,10 +4,11 @@
     enableGitStatus = true;
     eventHandlers = {
       neo_tree_buffer_enter = ''
-        function()
-          vim.opt_local.number = true;
-          vim.opt_local.relativenumber = true;
-        end
+                function()
+                  vim.opt_local.number = true;
+                  vim.opt_local.relativenumber = true;
+        	  vim.opt_local.signcolumn = "no";
+                end
       '';
     };
     window.mappings = {
